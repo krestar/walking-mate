@@ -28,6 +28,7 @@ dependencies:
   firebase_auth: ^6.0.2
   provider: ^6.1.5+1
   flutter_dotenv: ^6.0.0
+  flutter_launcher_icons: ^0.14.4
 
 dev_dependencies:
   flutter_test:
@@ -51,3 +52,7 @@ flutter:
         - asset: font/Pretendard-Regular.otf
         - asset: font/Pretendard-Bold.otf
           weight: 700
+
+flutter_launcher_icons:
+  android: true
+  image_path: "assets/icons/icon.png"
