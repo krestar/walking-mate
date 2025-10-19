@@ -1,0 +1,53 @@
+name: walking_mate_app
+description: "A new Flutter project."
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^1.2.0
+  flutter_secure_storage: ^9.0.0
+  flutter_svg: ^2.2.1
+  cupertino_icons: ^1.0.2
+  dio: ^5.4.0
+  shared_preferences: ^2.2.2
+  flutter_naver_map: ^1.4.1+1
+  geolocator: ^14.0.2
+  jwt_decoder: ^2.0.1
+  intl: ^0.20.2
+  screenshot: ^3.0.0
+  path_provider: ^2.0.11
+  share_plus: ^11.1.0
+  firebase_core: ^4.1.0
+  cloud_firestore: ^6.0.1
+  image_picker: ^1.2.0
+  firebase_auth: ^6.0.2
+  provider: ^6.1.5+1
+  flutter_dotenv: ^6.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/icons/
+    - assets/korea_regions.json
+    - assets/sprites/
+    - assets/thumbnails/
+    - .env
+
+
+  fonts:
+    - family: Pretendard
+      fonts:
+        - asset: font/Pretendard-Regular.otf
+        - asset: font/Pretendard-Bold.otf
+          weight: 700

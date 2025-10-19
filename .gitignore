@@ -1,0 +1,77 @@
+# =======================================================
+# 보안 관련 파일 (매우 중요!)
+# =======================================================
+# 민감한 환경변수 파일
+.env
+*.env
+
+# Firebase 어드민 SDK 키 파일
+*adminsdk.json
+walkingmate-firebase-adminsdk.json
+
+# Firebase 설정 파일 (민감한 정보 포함 가능성)
+firebase.json
+
+# 안드로이드 앱 서명 키
+*.jks
+*.keystore
+key.properties
+
+# =======================================================
+# 백엔드 (Node.js) 관련 제외 항목
+# =======================================================
+# npm 패키지 폴더
+/backend/walking-mate-server/node_modules/
+
+# 로그 파일
+/backend/walking-mate-server/*.log
+/backend/walking-mate-server/npm-debug.log*
+
+# 사용자가 업로드한 파일이 저장되는 폴더
+/backend/walking-mate-server/uploads/
+
+# =======================================================
+# 프론트엔드 (Flutter) 관련 제외 항목
+# =======================================================
+# Dart / Flutter 내부 도구 및 설정 파일
+/frontend/walking_mate_app/.dart_tool/
+/frontend/walking_mate_app/.packages
+/frontend/walking_mate_app/.metadata
+
+# 빌드 결과물 (컴파일된 앱)
+/frontend/walking_mate_app/build/
+
+# 플랫폼별 프로젝트 폴더 전체 제외
+/frontend/walking_mate_app/android/
+/frontend/walking_mate_app/ios/
+/frontend/walking_mate_app/web/
+/frontend/walking_mate_app/linux/
+/frontend/walking_mate_app/macos/
+/frontend/walking_mate_app/windows/
+
+# Flutter 생성 파일
+/frontend/walking_mate_app/lib/firebase_options.dart
+
+# =======================================================
+# IDE 및 시스템 관련 제외 항목
+# =======================================================
+# Android Studio / IntelliJ
+.idea/
+
+# VS Code
+.vscode/
+
+# macOS 시스템 파일
+.DS_Store
+
+# Windows 시스템 파일
+Thumbs.db
+backend/walking-mate-server/requests.http
+frontend/walking_mate_app/font
+frontend/walking_mate_app/assets
+frontend/walking_mate_app/devtools_options.yaml
+frontend/walking_mate_app/copy_apk.bat
+frontend/walking_mate_app/analysis_options.yaml
+frontend/walking_mate_app/lib/utils/api_config.dart
+backend/walking-mate-server/config/firebaseAdmin.js
+frontend/walking_mate_app/android/app/src/main/AndroidManifest.xml
