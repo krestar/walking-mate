@@ -1,16 +1,28 @@
-# walking_mate_app
+# Walking Mate - Flutter 애플리케이션
 
-A new Flutter project.
+Walking Mate 서비스의 사용자 경험(UX)과 인터페이스(UI)를 담당하는 Flutter 기반의 크로스플랫폼 모바일 애플리케이션입니다.
 
-## Getting Started
+<br>
 
-This project is a starting point for a Flutter application.
+## ✨ 주요 화면 및 기능
 
-A few resources to get you started if this is your first Flutter project:
+* **홈 화면**
+    * 오늘의 산책 시간, 캐릭터 등 핵심 정보를 시각적으로 보여줍니다.
+    * 사용자가 직접 꾸민 메인 캐릭터가 애니메이션을 선보입니다.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+* **산책 기능**
+    * **산책로 생성**: AI에게 원하는 산책 조건을 자연어로 요청하여 맞춤형 경로를 추천받습니다.
+    * **산책 진행**: Naver Map SDK를 활용하여 현재 위치, 남은 경로, 이동 거리 등을 실시간으로 표시합니다.
+    * **산책 결과**: 완료된 산책의 시간, 거리, 소모 칼로리, 획득 포인트 등을 요약하여 보여주고 이미지로 공유할 수 있습니다.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+* **캐릭터 커스터마이징**
+    * 포인트를 사용하여 새로운 캐릭터나 꾸미기 아이템(모자, 날개, 옷 등)을 구매할 수 있는 상점 기능을 제공합니다.
+    * 구매한 아이템과 캐릭터를 자유롭게 조합하고 저장하여 홈 화면의 메인 캐릭터에 즉시 반영할 수 있습니다.
+
+* **커뮤니티 및 소셜**
+    * **크루**: 크루 목록을 확인하고, 새로운 크루에 가입하거나 직접 생성할 수 있습니다. 크루 멤버들과 게시판을 통해 소통합니다.
+    * **워킹메이트**: 다른 사용자를 검색하여 친구를 맺고, Firebase Firestore 기반의 실시간 1:1 채팅 기능을 통해 대화할 수 있습니다.
+
+* **업적 및 프로필**
+    * 다양한 도전 과제(업적)의 진행 상황을 확인하고, 완료된 업적의 보상을 획득할 수 있습니다.
+    * 닉네임, 프로필 사진, 거주 지역 등 개인 정보를 수정하고, 다른 사용자에게 내 존재를 공개할지 여부를 설정할 수 있습니다.
