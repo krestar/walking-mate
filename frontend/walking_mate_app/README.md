@@ -1,6 +1,6 @@
 # Walking Mate - Flutter 애플리케이션
 
-Walking Mate 서비스의 사용자 경험(UX)과 인터페이스(UI)를 담당하는 Flutter 기반의 크로스플랫폼 모바일 애플리케이션입니다.
+Walking Mate 서비스의 사용자 경험(UX)과 인터페이스(UI)를 담당하는 Flutter 기반의 Android 애플리케이션입니다.
 
 <br>
 
